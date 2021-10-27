@@ -2,10 +2,9 @@
   "name": "feliz-dia-project",
   "version": "0.0.0",
   "scripts": {
-    "build": "cd client && npm run build",
-    "install": "cd client && npm install",
     "ng": "ng",
     "start": "node server.js",
+    "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "heroku-postbuild": "ng build --prod"
